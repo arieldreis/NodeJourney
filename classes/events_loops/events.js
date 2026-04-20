@@ -40,4 +40,4 @@ server.on("close", (req, res) => {
 
 server.listen(8000, () => {
     console.log("Waiting for requests...");
-})
+});
