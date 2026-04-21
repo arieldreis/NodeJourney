@@ -1,0 +1,1 @@
+export const text = "Log this beautiful text 😊";
