@@ -23,7 +23,7 @@ app.get('/api/v1/tours', (req, res) => {
     }
 });
 
-app.post('/criar', (req, res) => {
+app.post('/api/v1/tours', (req, res) => {
     res.send("You can post to this endpooint");
 });
 
