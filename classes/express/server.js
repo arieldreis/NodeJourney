@@ -44,7 +44,7 @@ app.get('/api/v1/tours/:id', (req, res) => {
             return res.status(200).json({
                 status: 'success',
                 data: {
-                    tours: tour
+                    tours: tour,
                 }
             });
         }
@@ -67,6 +67,8 @@ app.post('/api/v1/create', (req, res) => {
     });
    });
 });
+
+app.patch('/', (req, res) => {});
 
 app.listen(PORT, () => {
     console.log(`App running on port http://localhost:${PORT}`);
